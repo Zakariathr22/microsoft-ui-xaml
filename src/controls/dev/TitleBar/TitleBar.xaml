@@ -261,7 +261,8 @@
                             x:Name="PART_CenterContentPresenterGrid"
                             x:DeferLoadStrategy="Lazy"
                             Visibility="Collapsed"
-                            Grid.Column="8">
+                            Grid.Column="8"
+                            Margin="0,0,16,0">
                             <ContentPresenter
                                 x:Name="PART_CenterContentPresenter"
                                 Content="{TemplateBinding CenterContent}"
