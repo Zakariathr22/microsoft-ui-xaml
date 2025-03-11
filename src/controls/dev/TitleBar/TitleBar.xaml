@@ -265,7 +265,7 @@
                             <ContentPresenter
                                 x:Name="PART_CenterContentPresenter"
                                 Content="{TemplateBinding CenterContent}"
-                                HorizontalAlignment="Center"/>
+                                VerticalAlignment="Center"/>
                         </Grid>
                            
                         <ContentPresenter
